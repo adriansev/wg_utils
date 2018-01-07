@@ -1,0 +1,2 @@
+#!/bin/bash
+for WG_DEV in $(wg show interfaces); do wg showconf ${WG_DEV} > ${WG_DEV}_$(date +%Y%m%d_%H%M%S).conf ; done
