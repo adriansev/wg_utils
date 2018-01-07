@@ -27,7 +27,7 @@ ARGS are one of : start | no option ; save ; status | show ; down | stop ; resta
 
 TODO : 
 
-1. wg_service : add iptables processing section; it will be able to process [IPTABLES_<table>] defined in CONF_FILE (or in $(/usr/bin/dirname ${CONF_FILE})/peers_$(/bin/basename ${CONF_FILE} .conf) ) 
+1. wg_service : add iptables processing section; it will be able to process [IPTABLES_\<table\>] defined in CONF_FILE (or in $(/usr/bin/dirname ${CONF_FILE})/peers_$(/bin/basename ${CONF_FILE} .conf) ) 
 2. wg_service : add check argument 
 2. add sysvinit and systemd service files
 
